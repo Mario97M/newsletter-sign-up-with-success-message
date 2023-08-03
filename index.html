@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Mobile view -->
+    <!-- Var one -->
+    <main class="stay-updated" id="stayUpdatedMain">
+      <!-- Mobile Image -->
+      <div class="mobile-img">
+        <img src="images/illustration-sign-up-mobile.svg" alt="Check mark" />
+      </div>
+      <!-- Hero section -->
+      <div class="stay-updated-main">
+        <div>
+          <h1>Stay updated!</h1>
+          <p>Join 60,000+ product managers recieving monthly updates on:</p>
+          <div class="check-list-container">
+            <ul>
+              <li>
+                <div class="img-list">
+                  <img src="images/icon-success.svg" alt="Check mark" />
+                </div>
+                <div>
+                  <p>Product discovery and building what matters</p>
+                </div>
+              </li>
+              <li>
+                <div class="img-list">
+                  <img src="images/icon-success.svg" alt="Check mark" />
+                </div>
+                <div>
+                  <p>Measuring to ensure updates are a success.</p>
+                </div>
+              </li>
+              <li>
+                <div class="img-list">
+                  <img src="images/icon-success.svg" alt="Check mark" />
+                </div>
+                <div><p>And much more!</p></div>
+              </li>
+            </ul>
+          </div>
+          <!-- Email submition form -->
+          <div class="email-form">
+            <div>
+              <!-- Var two and three -->
+
+              <div id="emailForm">
+                <div class="email-address"><span>Email address</span></div>
+                <div>
+                  <input
+                    id="emailInput"
+                    type="text"
+                    placeholder="email@company.com"
+                  />
+                </div>
+                <div class="subscribe-button">
+                  <button id="subBtn" type="submit">
+                    Subscribe to monthly newsletter
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Desktop Image -->
+
+      <div class="desktop-img">
+        <img src="images/illustration-sign-up-desktop.svg" alt="" />
+      </div>
+    </main>
+    <!-- Thanks for subscribing section -->
+    <!-- Var four -->
+    <main class="thanks-for-sub-section hidden" id="thankYouMessage">
+      <div>
+        <div>
+          <div class="thanks-for-sub-check">
+            <img src="images/icon-success.svg" alt="Check mark" />
+          </div>
+          <h1>Thanks for subscribing!</h1>
+          <p>
+            A confirmation email has been sent to
+            <span style="font-weight: bold;" id="emailConfirmation"></span>. Please open it and click the
+            button inside to confirm your subscription
+          </p>
+        </div>
+        <div id="dismissBtn" class="dismiss-message-btn">
+          <button>Dismiss message</button>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
